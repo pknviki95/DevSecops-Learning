@@ -24,7 +24,7 @@ Server:
 client-server Architecture:
 ---------------------------
 
-![alt text](client-server.png)
+![alt text](https://github.com/pknviki95/DevSecops-Learning/blob/main/NetworkingConcepts/Images/client-server.png)
 
 
 Workflow of Client-server Architecture:
