@@ -2,7 +2,7 @@ Computer Networks Concepts:
 ---------------------------
 Reference link : [text](https://www.cloudflare.com/en-gb/learning/)
 
-Terminology:
+Concepts:
 ------------
 
 - Networking
@@ -12,34 +12,37 @@ Terminology:
 - Protocols
 - Packets
 - IP-Address
-    - IP-Address format
-        - IPV4
-        - IPV6
-    - Public
-    - Private
-    - Static
-    - Dynamic
--Port Number
-    - Reserved Ports
+- IP-Address format
+- Types of IP-Address    
+- Port Number
+- Types of Network
+- Modem
+- Router
+- Network Topologies
 
 Abbrevations:
 -------------
 
-ISP - Internet service provider
-IP - Internet protocol
-NAT - Network address translator
-DHCP - Dynamic Host Configuration Protocol
+| Abbrevations | Description   |
+| :---:   | :---: |
+| ISP | Internet service provider |
+| IP | Internet protocol |
+| NAT | Network address translator |
+| DHCP|  Dynamic Host Configuration Protocol|
 
 Networking:
 -----------
+
 - Networking is the act of making communication and data exchange between different communities and organizations
 
 Client:
 -------
+
 - A client is a program that makes requests to a server
 
 Server:
 -------
+
 - A server is a program that fulfills those requests
 
 client-server Architecture:
@@ -98,8 +101,9 @@ IP-address:
 IP-Address format:
 ------------------- 
 Based on format of IP address it differs in two types
-    - IPV4
-    - IPv6
+
+- **IPV4**
+- **IPv6**
 
 | IPV4 | IPV6   |
 | :---:   | :---: |
@@ -112,10 +116,11 @@ Based on format of IP address it differs in two types
 
 Various Types of IP-Address:
 -----------------------------
-- Public
-- Private
-- Static
-- Dynamic
+
+- **Public**
+- **Private**
+- **Static**
+- **Dynamic**
 
  ![alt text](https://github.com/pknviki95/DevSecops-Learning/blob/main/NetworkingConcepts/Images/Private-and-Public-IP-Address.jpg)
 
@@ -134,7 +139,7 @@ Private IP-Addresses:
 -Private IP addresses are typically assigned by a **router or a network address translator (NAT)** and are used to allow devices within the network to communicate with each other
 - Unlike public IP addresses, which are unique across the internet, **we can reuse private IP addresses within different local networks**
 
-Static Ip-Adddress:
+Static IP-Adddress:
 --------------------
 
 - A static public IP address is a **permanent address that does not change over time**
@@ -158,17 +163,15 @@ Port number:
 - Port Number are **standardized across all network-connected devices, with each port assigned a number**. 
 - Most port numbers are **reserved for certain protocols** — for example, all Hypertext Transfer Protocol (HTTP) messages go to port 80. 
 - While **IP addresses enable messages to go to and from specific devices**, **port numbers allow targeting of specific services or applications within those devices**.
+- Port Numbers are **16-bit** numbers around **65000** port number are available
+- **Hypertext Transfer Protocol (HTTP)** assigned to port **80**.
 
-for eg:
--------
+**for example**:
 
 - **When a request is sent from the client the server sends back response to the client**
 - **DHCP determines which device requested based on the IP address assigned through router or NAT to send back the response**
 - **But to determine which application/services has requested for that IP address assigned device will be determined by the Port number**
 - **(i.e) 192.168.1.1:8080 - The response is sent back to device with IP address 192.168.1.1 where the application/service running on port 8080 of that device** 
-
-- Port Numbers are **16-bit** numbers around **65000** port number are available
-- **Hypertext Transfer Protocol (HTTP)** assigned to port **80**.
 
 Reserved ports:
 ---------------
@@ -177,5 +180,77 @@ Reserved ports:
 - **0 to 1023** are reserved ports.
 - Reserved ports cannot be used as **to host an application by individual as it is already reserved**
 - **1024 to 49152** are reserved for application hosting (for eg : **SQL runs on port 1433**)
-
 - Remaining ports can be used by individuals
+
+Types of Network:
+-------------------
+Based on the range of Network connection the networks are divided as below
+
+- **Local Area Network**
+- **Metropolitan Area Network**
+- **Wide Area Network**
+
+Local Area Network (LAN):
+-------------------------
+
+- The full form of LAN is **Local-area Network**. 
+- It is a computer network that **covers a small area such as a building or campus up to a few kilometers in size**. 
+- LANs are commonly used to **connect personal computers and workstations in company offices to share common resources, like printers, and exchange information**
+
+Metropolitan Area Network (MAN):
+--------------------------
+
+- The full form of MAN is **Metropolitan Area Network**.
+- MAN is a network that spans a **metropolitan area or a city. It is designed to connect multiple locations within a metropolitan area, typically covering a range of up to 50 kilometers**. 
+- A single organization can own a MAN or can be shared by multiple organizations, such as universities, hospitals, or government agencies. 
+- MANs are typically used to provide high-speed network connectivity between **local area networks (LANs) and wide area networks (WANs), enabling data transfer and communication between different locations within a city**. 
+- MANs can be implemented using various technologies such as **Ethernet, Fiber Distributed Data Interface (FDDI), Asynchronous Transfer Mode (ATM), and Wireless technologies such as Wi-Fi, WiMAX, and microwave links**.
+
+Wide Area Network (WAN):
+--------------------
+
+- WAN stands for **Wide Area Network**. 
+- It is a computer network that covers a **large geographical area consisting of two or more LANs or MANs**. 
+- These networks are established with **leased telecommunication circuits, in which two sides which are connected have routers that connect the LAN of both sides together in a network to facilitate communication**.
+- SONET stands for **Synchronous Optical Network**. SONET is a **communication protocol**, developed by Bellcore – that is used to transmit a large amount of data over relatively large distances using optical fibre
+- Frame Relay is a packet-switching network protocol that is designed to work at the data link layer of the network. It is used to connect Local Area Networks (LANs) and transmit data across Wide Area Networks (WANs)
+
+Modem:
+------
+
+- A Modem is a short form of **Modulator/Demodulator**. 
+- The Modem is a hardware component/device that can connect **computers and other devices such as routers and switches to the internet**. 
+- Modems **convert or modulate the analog signals coming from telephone wire into a digital form that is in the form of 0s and 1s**. 
+- It acts as a **bridge between the telephone line and the computer**. 
+- It converts the **input analog signal to a digital signal and directs it to the computer and vice versa**.
+(i.e)  Modulator - converts analog signal from telephone line to digital signal to the computer connected to it; De-Modulator - converts digital signal from computer to analog signal and sends through telephone line  
+
+Routing:
+--------
+
+- Routing is the process of **selecting a path for traffic in a network or between or across multiple networks**
+
+![alt text](https://github.com/pknviki95/DevSecops-Learning/blob/main/NetworkingConcepts/Images/Routing.png)
+
+**for example**:
+
+Consider the image above.
+
+- For a data packet to get from Computer A to Computer B, should it pass through networks 1, 3, and 5 or networks 2 and 4? 
+- The packet will take a shorter path through networks 2 and 4, but networks 1, 3, and 5 might be faster at forwarding packets than 2 and 4. 
+- These are the kinds of **choices network routers constantly make using routing**.
+
+Router:
+-------
+
+- A Router is a **networking device that forwards data packets between computer networks**. 
+- One or more packet-switched networks or subnetworks can be connected using a router. 
+- By sending data packets to their intended IP addresses, it manages traffic between different networks and permits several devices to share an Internet connection by routing.
+
+Network Topologies:
+-------------------
+
+- Topology defines the structure of the network of how all the components are interconnected to each other. There are two types of topology: physical and logical topology.
+
+![alt text](https://github.com/pknviki95/DevSecops-Learning/blob/main/NetworkingConcepts/Images/6_types_of_network_topology.png)
+
