@@ -1,5 +1,6 @@
-Computer Networks Concepts:
----------------------------
+# Computer Networks Concepts:
+
+
 Reference link : [text](https://www.cloudflare.com/en-gb/learning/)
 
 Concepts:
@@ -58,7 +59,7 @@ Workflow of Client-server Architecture:
 - The user also calls the Client sends a request to the host server anticipating a response and is disconnected from the network after completing the request. 
 - The Client's bandwidth ability will determine the speed of delivery.
 
-*For Example:*
+**for example:**
 
 - when you type www.google.com into your web browser, **your browser is acting as a client**. 
 - It makes a **request** to Google’s servers for the website you’ve requested. 
