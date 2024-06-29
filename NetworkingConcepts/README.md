@@ -1,7 +1,7 @@
 # Computer Networks Concepts:
 
 
-Reference link : [text](https://www.cloudflare.com/en-gb/learning/)
+Reference link : [Networking](https://www.cloudflare.com/en-gb/learning/)
 
 Concepts:
 ------------
@@ -17,8 +17,7 @@ Concepts:
 - Types of IP-Address    
 - Port Number
 - Types of Network
-- Modem
-- Router
+- Networking devices
 - Network Topologies
 
 Abbrevations:
@@ -215,6 +214,9 @@ Wide Area Network (WAN):
 - These networks are established with **leased telecommunication circuits, in which two sides which are connected have routers that connect the LAN of both sides together in a network to facilitate communication**.
 - SONET stands for **Synchronous Optical Network**. SONET is a **communication protocol**, developed by Bellcore – that is used to transmit a large amount of data over relatively large distances using optical fibre
 - Frame Relay is a packet-switching network protocol that is designed to work at the data link layer of the network. It is used to connect Local Area Networks (LANs) and transmit data across Wide Area Networks (WANs)
+
+Networking devices:
+--------------------
 
 Modem:
 ------

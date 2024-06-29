@@ -1,5 +1,6 @@
 # Docker
 
+Official Documentation link : [Official Documentation link](https://docs.docker.com/guides/)
 
 docker version:
 ---------------
@@ -137,8 +138,11 @@ docker info:
 docker:
 -------
 
-- It return the vaious **commands related to docker**
-- commands are distinguised based on usage **common,managemnet,swarm**
+- It return the various **commands related to docker**
+- commands are distinguised based on usage **common,management,swarm**
+- There are new syntax created on docker with management commands for efficiency
+    **docker [command] <option>**
+    **docker [management command] [sub command] <option>**
 
 
             pknviki95@ubuntu18:~/pknviki/study/DevSecops-Learning/Docker$ docker

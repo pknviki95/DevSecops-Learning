@@ -15,7 +15,7 @@ Topics:
 - PyYAML Python Module
 - Sample Python scripts
 
-Reference link : [text](https://youtu.be/GOk4IoYhM9U?feature=shared)
+Reference link : [Yaml link](https://www.youtube.com/watch?v=GOk4IoYhM9U)
 
 What is YAML language?
 -----------------------
