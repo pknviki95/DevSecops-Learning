@@ -1,7 +1,6 @@
 # Linux
 
-Topics:
---------
+## Topics:
 
 - Linux Basic concepts
 - System documentation
