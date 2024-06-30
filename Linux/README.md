@@ -46,7 +46,7 @@ Topics:
             Full documentation at: <http://www.gnu.org/software/coreutils/mkdir>
             or available locally via: info '(coreutils) mkdir invocation'
 
-### Manual page man [command]:
+### Manual page(man [command]):
 
 - man command **returns the manual page of the commands listed with detailed explanation on description section**
 
@@ -144,8 +144,7 @@ Note: **If the machine is ran for the first time it throws error as we haven't u
                 
                 sudo mandb
 
-tab suggestion/auto completion:
---------------------------------
+#### tab suggestion/auto completion:
 
 - tab button return **the various possiblities of commands/option with their auto-completion**
 - Based on the list it makes **easier for us to update the commands in faster way**
@@ -251,7 +250,7 @@ NOTE: another place where applications and libraries end up in is /usr/local, Wh
 /usr:
 ------
 
--/usr contains **a mish-mash of directories which in turn contain applications, libraries, documentation, wallpapers, icons and a long list of other stuff that need to be shared by applications and services**.
+- /usr contains **a mish-mash of directories which in turn contain applications, libraries, documentation, wallpapers, icons and a long list of other stuff that need to be shared by applications and services**.
 - The /usr directory was where users’ home directories were originally kept back in the early days of UNIX. However, now /home is where users kept their stuff as we saw above. 
 - You will also find bin, sbin and lib directories in /usr.
 - Originally, the **/bin directory (hanging off of root) would contain very basic commands, like ls, mv and rm; the kind of commands that would come pre-installed in all UNIX/Linux installations, the bare minimum to run and maintain a system**. 
