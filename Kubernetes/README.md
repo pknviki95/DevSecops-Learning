@@ -4,6 +4,7 @@ Installing MicroK8's in ubuntu:
 --------------------------------
 
 Official Installation link : [Official Installation link](https://microk8s.io/docs/getting-started) 
+
 Git-hub Installation link : [Git-hub Installation link](https://github.com/canonical/microk8s) 
 
 Install MicroK8s with:
@@ -133,7 +134,7 @@ To enable/disable add-ons:
         validatingwebhookconfiguration.admissionregistration.k8s.io "cert-manager-webhook" deleted
         Deleted cert-manager
 
-reference links on various add-ons - https://microk8s.io/docs/addons#heading--list
+Reference links on various add-ons : [Add-ons](https://microk8s.io/docs/addons#heading--list)
 
 Starting and Stopping MicroK8s:
 

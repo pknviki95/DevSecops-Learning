@@ -4,6 +4,10 @@ Topics:
 -----------
 
 - [**Linux**](https://github.com/pknviki95/DevSecops-Learning/tree/main/Linux)
+    - Linux Basic concepts 
+    - System documentation
+    - Linux Filesystems
+    - Working with files and directories
 
 - [**GIT**](https://github.com/pknviki95/DevSecops-Learning/tree/main/GIT)
 
