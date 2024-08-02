@@ -8,6 +8,9 @@
 - If it throws error then it is not installed properly or docker service is not running in your PC.
 
 ```sh
+docker version
+```
+```sh
 pknviki95@ubuntu18:~/pknviki/study/DevSecops-Learning/Docker$ docker version
 ```
 #### output:
@@ -47,6 +50,9 @@ GitCommit:        de40ad0
 - ```docker info``` returns most configuration values of the docker engine.
 - Info such as version of various ```docker features,containers,Images```  etc,
 
+```sh
+docker info
+```
 ```sh
 pknviki95@ubuntu18:~/pknviki/study/DevSecops-Learning/Docker$ docker info
 ```
@@ -153,6 +159,9 @@ WARNING: No swap limit support
     
     ```docker [management command] [sub command] <option>```
 
+```sh
+docker
+```
 
 ```sh
 pknviki95@ubuntu18:~/pknviki/study/DevSecops-Learning/Docker$ docker
