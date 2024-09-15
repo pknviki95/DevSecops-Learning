@@ -2,9 +2,52 @@
 
 
 
+
 ### Installation of GIT:
 
-#### Initializing git repository:
+### Version of git:
+
+- Shows the current version of your Git
+
+#### command:
+
+```sh
+git --version
+```
+#### output:
+
+```sh
+pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/DevSecops-Learning/GIT$ git --version
+git version 2.34.1
+```
+#### command:
+```sh
+which git
+```
+#### output:
+```sh
+pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/DevSecops-Learning$ which git
+/usr/bin/git
+```
+### Basic workflow of GIT:
+
+
+```Workspace``` -> ```Index/Staging area``` -> ```Local Git repository``` -> ```Remote git repository```
+
+### Three stages of git:
+
+- Untracked
+- Staged
+- Committed
+
+#### Untracked: 
+-  The file exists, but is ```not part of git's version control```.
+#### Staged: 
+- The file has been ```added``` to git's version control but changes have not been committed
+#### Committed: 
+- The change has been ```committed```
+
+### Initializing git repository:
 
 
 ```sh
@@ -27,12 +70,35 @@ hint: 	git branch -m <name>
 Initialized empty Git repository in /home/pknviki95/Learning/test_folder/git_study/.git/
 ```
 - Once git is initialized it creates ```.git``` folder inside the workspace.
+- It helps to perform all git operation for that workspace.
+
 ```sh
 pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/test_folder/git_study$ ls -lsa
 total 12
 4 drwxrwxr-x 3 pknviki95 pknviki95 4096 Jul 20 18:11 .
 4 drwxrwxr-x 3 pknviki95 pknviki95 4096 Jul 20 18:11 ..
 4 drwxrwxr-x 7 pknviki95 pknviki95 4096 Jul 20 18:11 .git
+```
+### Status of git repository:
+
+- Gives the current status of the git repository
+- with this we can check the files that are ```untracked``` or ```modified``` or if the files are ```newly added``` etc.,
+
+```sh
+git status
+```
+
+```sh
+pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/DevSecops-Learning$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   GIT/README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ### GIT configuration:
